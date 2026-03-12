@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: var(--risoG);
+  background-image: url(greenbackground.png);
   align-items: center;
   font-family: Cambria;
 }
@@ -116,6 +116,17 @@ footer{
     align-items: top;
     gap:3.3px;
 }
+
+.box3 {
+    width:27%;
+    height: 100px;
+    overflow:auto;
+    padding: 15px;
+    display: inline-block;
+    border: 2px solid var(--risoPink);
+    text-align: center;
+}
+
 
 ul{
     height:auto;
