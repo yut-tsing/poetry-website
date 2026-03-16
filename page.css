@@ -42,6 +42,7 @@ footer{
     padding-top:0.1px;
     padding-bottom:0.1px;
     div {
+        text-align: center;
         a{color:white;}
     }
 }
@@ -99,12 +100,14 @@ footer{
     height:auto;
     width:96%;
     padding: 10px;
+    margin-bottom: 5px;
 }
 
 .poetry{
     height:auto;
     width:85%;
     padding: 10px;
+    overflow-y: hidden;
 }
 
 .container{
