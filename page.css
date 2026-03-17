@@ -86,7 +86,7 @@ footer{
 }
 .box2 {
     width:55.9%;
-    height:auto;
+    height:fit-content;
     padding-left: 15px;
     padding-top: 10px;
     background-color:white;
