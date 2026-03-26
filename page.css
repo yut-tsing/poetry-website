@@ -2,14 +2,13 @@
     --risoRed:#F15060;
     --risoPink:#FF48B0;
     --risoP:#765BA7;
-    /*crimson, ivory, hotpink, blanchedalmond, coral*/
+    --risoG:#E3ED55;
 }
 
 body {
-  background-color: white;
+  background-image: url(greenbackground.png);
   align-items: center;
-  margin-left:50px;
-  margin-right:50px;
+  font-family: Cambria;
 }
 
 .header {
@@ -17,7 +16,10 @@ body {
 }
 
 header {
-    display:fixed;
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
     background-color:var(--risoP);
     padding:0.1px;
     text-align: center;
@@ -30,9 +32,19 @@ header {
 }
 
 footer{
-    display:fixed;
+    position: fixed;
+    bottom:0;
+    left:0;
+    width:100%;
     background-color:var(--risoP);
-    padding:20px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:0.1px;
+    padding-bottom:0.1px;
+    div {
+        text-align: center;
+        a{color:white;}
+    }
 }
 
 .text{
@@ -48,7 +60,7 @@ footer{
 
 .title {
     width:26%;
-    height:298px;
+    height:fit-content;
     padding-left: 15px;
     padding-top: 10px;
     background-color:white;
@@ -64,7 +76,7 @@ footer{
 
 .box {
     width:84%;
-    height:298px;
+    height:auto;
     padding-left: 15px;
     padding-top: 10px;
     background-color:white;
@@ -74,7 +86,7 @@ footer{
 }
 .box2 {
     width:55.9%;
-    height:298px;
+    height:fit-content;
     padding-left: 15px;
     padding-top: 10px;
     background-color:white;
@@ -85,19 +97,20 @@ footer{
 }
 
 .content{
-    height:70%;
+    height:auto;
     width:96%;
-    overflow:auto;
     padding: 10px;
-    background-color:white; 
+    margin-bottom: 5px;
 }
 
 .poetry{
-    height:70%;
+    height:auto;
     width:85%;
-    overflow:auto;
     padding: 10px;
-    background-color:white 
+    overflow-y: hidden;
+    a {
+        color:#765BA7;
+    }
 }
 
 .container{
@@ -106,12 +119,26 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: top;
     gap:3.3px;
 }
 
+.box3 {
+    width:150px;
+    height: 100px;
+    overflow:auto;
+    padding: 15px;
+    display: inline-block;
+    border: 2px solid var(--risoPink);
+    text-align: center;
+    a {
+        color:#765BA7;
+    }
+}
+
+
 ul{
-    overflow: auto;
+    height:auto;
 }
 
 
@@ -123,6 +150,9 @@ h1{
 h2 {
     color:var(--risoPink);
     padding-left: 15px;
+    a {
+        color:#765BA7;
+    }
 }
 
 h3 {
