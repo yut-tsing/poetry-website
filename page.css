@@ -37,13 +37,13 @@ footer{
     left:0;
     width:100%;
     background-color:var(--risoP);
-    padding-left:10px;
-    padding-right:10px;
     padding-top:0.1px;
     padding-bottom:0.1px;
     div {
+        width: 49.76%;
         text-align: center;
         a{color:white;}
+        display: inline-block;
     }
 }
 
@@ -88,6 +88,7 @@ footer{
     width:55.9%;
     height:fit-content;
     padding-left: 15px;
+    padding-right: 10px;
     padding-top: 10px;
     background-color:white;
     display: inline-block;
