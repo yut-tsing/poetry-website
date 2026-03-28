@@ -143,12 +143,12 @@ ul{
 }
 
 
-h1{
+h1{height:auto;
     color:var(--risoPink);
     text-align: center;
 }
 
-h2 {
+h2 {height:auto;
     color:var(--risoPink);
     padding-left: 15px;
     a {
@@ -156,18 +156,18 @@ h2 {
     }
 }
 
-h3 {
+h3 {height:auto;
     color:var(--risoPink);
 }
 
-h4 {
+h4 {height:auto;
     color:var(--risoPink);  
 }
 
-a {
+a {height:auto;
     color:black;
 }
 
-p {
+p {height:auto;
     color: black;
 }
