@@ -1,5 +1,1 @@
-document.getElementById("a").onmousedown=mousedown;
-
-if (mousedown){
-    console.log("redirecting");
-}
+header = document.getElementById("header");

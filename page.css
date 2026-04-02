@@ -102,6 +102,9 @@ footer{
     width:96%;
     padding: 10px;
     margin-bottom: 5px;
+    img{
+        max-width: 100%;
+    }
 }
 
 .poetry{
@@ -125,8 +128,8 @@ footer{
 }
 
 .box3 {
-    width:150px;
-    height: 100px;
+    width:181px;
+    height:100px;
     overflow:auto;
     padding: 15px;
     display: inline-block;
