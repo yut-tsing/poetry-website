@@ -1,1 +1,0 @@
-header = document.getElementById("header");
