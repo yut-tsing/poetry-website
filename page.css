@@ -26,7 +26,7 @@ header {
         display:inline-block;
         padding-left:10px;
         padding-right:10px;
-        a{color:mediumseagreen;}
+        a{color:rgb(151, 252, 212);}
     }
     @media screen and (min-width: 400px){
         font-size-adjust: 70%;
