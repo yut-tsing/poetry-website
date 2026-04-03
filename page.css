@@ -4,17 +4,14 @@
     --risoP:#765BA7;
     --risoG:#E3ED55;
 }
-
 body {
   background-image: url(greenbackground2.png);
   align-items: center;
   font-family: Cambria;
 }
-
 .header {
     display:fixed;
 }
-
 header {
     position: fixed;
     top:0;
@@ -30,26 +27,38 @@ header {
         a{color:white;}
     }
 }
-
 footer{
     position: fixed;
     bottom:0;
     left:0;
     width:100%;
     background-color:var(--risoP);
+    padding-top:0.1px;
+    padding-bottom:0.1px;
     div {
         width: 49.76%;
         text-align: center;
         a{color:white;}
-        float:left;
+        display: inline-block;
     }
 }
 
 .text{
-    width:46%;
+    width:400px;
     display: flex;
     justify-content: center;
     align-items: center; 
+
+    
+        
+          
+    
+
+        
+        Expand All
+    
+    @@ -59,12 +57,12 @@ footer{
+  
     margin: 0px auto;
     p{
         text-align: center;
@@ -57,15 +66,26 @@ footer{
 }
 
 .title {
-    width:26.1%;
+    width:214px;
     height:fit-content;
     padding-left: 15px;
     padding-top: 10px;
     background-color:white;
-    float:left;
+    display: inline-block;
     border: 3px solid var(--risoP);
     h4{
         padding:3.3px;
+
+    
+        
+          
+    
+
+        
+        Expand All
+    
+    @@ -75,8 +73,9 @@ footer{
+  
     }
     h3{
         padding-left:14px;
@@ -73,40 +93,68 @@ footer{
 }
 
 .box {
-    width:84%;
+    width:690px;
     height:auto;
-    float:center;
     padding-left: 15px;
     padding-top: 10px;
     background-color:white;
+
+    
+        
+          
+    
+
+        
+        Expand All
+    
+    @@ -85,13 +84,13 @@ footer{
+  
     margin-left: auto;
     margin-right: auto;
     border: 3px solid var(--risoRed);
 }
 .box2 {
-    width:61.5%;
+    width:459px;
     height:fit-content;
     padding-left: 15px;
     padding-right: 10px;
     padding-top: 10px;
     background-color:white;
-    float:left;
+    display: inline-block;
     border: 3px solid var(--risoRed);
     .content{
     width:95%;}
-}
 
+    
+        
+          
+    
+
+        
+        Expand All
+    
+    @@ -102,6 +101,9 @@ footer{
+  
+}
 .content{
     height:auto;
     width:96%;
     padding: 10px;
     margin-bottom: 5px;
-    img{
-        max-width: 100%;
-    }
 }
 
 .poetry{
+
+    
+        
+          
+    
+
+        
+        Expand All
+    
+    @@ -125,18 +127,25 @@ footer{
+  
     height:auto;
     width:85%;
     padding: 10px;
@@ -115,7 +163,6 @@ footer{
         color:#765BA7;
     }
 }
-
 .container{
     margin-left: auto;
     margin-right: auto;
@@ -127,13 +174,11 @@ footer{
 }
 
 .box3 {
-    width:200px;
-    height:125px;
+    width:150px;
+    height: 100px;
     overflow:auto;
     padding: 15px;
-    margin-left:0.5%;
-    margin-bottom:0.5%;
-    display:inline-block;
+    display: inline-block;
     border: 2px solid var(--risoPink);
     text-align: center;
     a {
@@ -141,22 +186,25 @@ footer{
     }
 }
 
-@media screen and (max-width:214px){
-       .box, .box2, .box3, .title, .poetry, .text, .content{
-        width:84%;
-       } 
-    }
 
 ul{
     height:auto;
+
+    
+          
+            
+    
+
+          
+          Expand Down
+    
+    
+  
 }
-
-
 h1{
     color:var(--risoPink);
     text-align: center;
 }
-
 h2 {
     color:var(--risoPink);
     padding-left: 15px;
@@ -164,19 +212,15 @@ h2 {
         color:#765BA7;
     }
 }
-
 h3 {
     color:var(--risoPink);
 }
-
 h4 {
     color:var(--risoPink);  
 }
-
 a {
     color:black;
 }
-
 p {
     color: black;
 }
