@@ -37,18 +37,16 @@ footer{
     left:0;
     width:100%;
     background-color:var(--risoP);
-    padding-top:0.1px;
-    padding-bottom:0.1px;
     div {
         width: 49.76%;
         text-align: center;
         a{color:white;}
-        display: inline-block;
+        float:left;
     }
 }
 
 .text{
-    width:400px;
+    width:46%;
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -59,12 +57,12 @@ footer{
 }
 
 .title {
-    width:214px;
+    width:26.1%;
     height:fit-content;
     padding-left: 15px;
     padding-top: 10px;
     background-color:white;
-    display: inline-block;
+    float:left;
     border: 3px solid var(--risoP);
     h4{
         padding:3.3px;
@@ -75,8 +73,9 @@ footer{
 }
 
 .box {
-    width:690px;
+    width:84%;
     height:auto;
+    float:center;
     padding-left: 15px;
     padding-top: 10px;
     background-color:white;
@@ -85,13 +84,13 @@ footer{
     border: 3px solid var(--risoRed);
 }
 .box2 {
-    width:459px;
+    width:61.5%;
     height:fit-content;
     padding-left: 15px;
     padding-right: 10px;
     padding-top: 10px;
     background-color:white;
-    display: inline-block;
+    float:left;
     border: 3px solid var(--risoRed);
     .content{
     width:95%;}
@@ -102,6 +101,9 @@ footer{
     width:96%;
     padding: 10px;
     margin-bottom: 5px;
+    img{
+        max-width: 100%;
+    }
 }
 
 .poetry{
@@ -125,11 +127,13 @@ footer{
 }
 
 .box3 {
-    width:150px;
-    height: 100px;
+    width:200px;
+    height:125px;
     overflow:auto;
     padding: 15px;
-    display: inline-block;
+    margin-left:0.5%;
+    margin-bottom:0.5%;
+    display:inline-block;
     border: 2px solid var(--risoPink);
     text-align: center;
     a {
@@ -137,6 +141,11 @@ footer{
     }
 }
 
+@media screen and (max-width:214px){
+       .box, .box2, .box3, .title, .poetry, .text, .content{
+        width:84%;
+       } 
+    }
 
 ul{
     height:auto;
