@@ -4,7 +4,7 @@ menusize(w);
 
 function menusize(w){
     if (w < 404){
-    document.getElementById("menu").style = "font-size:10px";
+    document.getElementById("menu").style = "font-size:12px";
     
     }
     else{
