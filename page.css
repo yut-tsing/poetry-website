@@ -48,7 +48,7 @@ footer{
 }
 
 .text{
-    width:400px;
+    width:46%;
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -59,7 +59,7 @@ footer{
 }
 
 .title {
-    width:214px;
+    width:26.1%;
     height:fit-content;
     padding-left: 15px;
     padding-top: 10px;
@@ -75,7 +75,7 @@ footer{
 }
 
 .box {
-    width:690px;
+    width:84%;
     height:auto;
     padding-left: 15px;
     padding-top: 10px;
@@ -128,8 +128,8 @@ footer{
 }
 
 .box3 {
-    width:181px;
-    height:100px;
+    width:27%;
+    height:120px;
     overflow:auto;
     padding: 15px;
     display: inline-block;
