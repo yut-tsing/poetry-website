@@ -20,6 +20,9 @@ header {
     top:0;
     left:0;
     width:100%;
+    @media screen and (max-width:1.3vw){
+        font-size:1.2vw;
+    }
     background-color:var(--risoP);
     padding:0.1px;
     text-align: center;
@@ -74,7 +77,7 @@ footer{
 
 .box {
     width:84%;
-    height:auto;
+    height:fit-content;
     float:center;
     padding-left: 15px;
     padding-top: 10px;
@@ -131,8 +134,9 @@ footer{
     height:125px;
     overflow:auto;
     padding: 15px;
-    margin-left:0.5%;
-    margin-bottom:0.5%;
+    margin-left:1%;
+    margin-right:1%;
+    margin-bottom:1%;
     display:inline-block;
     border: 2px solid var(--risoPink);
     text-align: center;
@@ -141,10 +145,19 @@ footer{
     }
 }
 
-@media screen and (max-width:214px){
-       .box, .box2, .box3, .title, .poetry, .text, .content{
-        width:84%;
+@media screen and (min-width:214px){
+       .box2, .title, .text{
+        width:30vw;
        } 
+       .poetry{
+        width:28vw;
+       }
+       .box {
+        width:83vw;
+       }
+       .content{
+        width:83vw;
+       }
     }
 
 ul{
