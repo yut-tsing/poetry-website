@@ -20,6 +20,7 @@ header {
     top:0;
     left:0;
     width:100%;
+    font-size: 17px;
     background-color:var(--risoP);
     text-align: center;
     div {
@@ -27,9 +28,6 @@ header {
         padding-left:10px;
         padding-right:10px;
         a{color:rgb(151, 252, 212);}
-    }
-    @media screen and (min-width: 400px){
-        font-size-adjust: 70%;
     }
 }
 
@@ -159,21 +157,6 @@ footer{
         color:#765BA7;
     }
 }
-
-@media screen and (min-width:214px){
-       .box2, .title, .text{
-        width:30vw;
-       } 
-       .poetry{
-        width:28vw;
-       }
-       .box {
-        width:83vw;
-       }
-       .content{
-        width:82vw;
-       }
-    }
 
 ul{
     height:auto;
