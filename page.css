@@ -59,7 +59,7 @@ footer{
 .title {
     width:26.1%;
     height:fit-content;
-    padding-left: 15px;
+    padding-left: 10px;
     padding-top: 10px;
     background-color:white;
     float:left;
@@ -75,7 +75,7 @@ footer{
 .title2 {
     width:84%;
     height:fit-content;
-    padding-left: 15px;
+    padding-left: 10px;
     padding-top: 10px;
     background-color:white;
     float:left;
@@ -92,7 +92,7 @@ footer{
     width:84%;
     height:fit-content;
     float:center;
-    padding-left: 15px;
+    padding-left: 10px;
     padding-top: 10px;
     background-color:white;
     margin-left: auto;
@@ -102,7 +102,7 @@ footer{
 .box2 {
     width:61.5%;
     height:fit-content;
-    padding-left: 15px;
+    padding-left: 10px;
     padding-right: 10px;
     padding-top: 10px;
     background-color:white;
