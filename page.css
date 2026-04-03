@@ -2,22 +2,21 @@
     --risoRed:#F15060;
     --risoPink:#FF48B0;
     --risoP:#765BA7;
-    /*crimson, ivory, hotpink, blanchedalmond, coral*/
+    --risoG:#E3ED55;
 }
-
 body {
-  background-color: white;
+  background-image: url(greenbackground2.png);
   align-items: center;
-  margin-left:50px;
-  margin-right:50px;
+  font-family: Cambria;
 }
-
 .header {
     display:fixed;
 }
-
 header {
-    display:fixed;
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
     background-color:var(--risoP);
     padding:0.1px;
     text-align: center;
@@ -28,11 +27,20 @@ header {
         a{color:white;}
     }
 }
-
 footer{
-    display:fixed;
+    position: fixed;
+    bottom:0;
+    left:0;
+    width:100%;
     background-color:var(--risoP);
-    padding:20px;
+    padding-top:0.1px;
+    padding-bottom:0.1px;
+    div {
+        width: 49.76%;
+        text-align: center;
+        a{color:white;}
+        display: inline-block;
+    }
 }
 
 .text{
@@ -40,6 +48,17 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center; 
+
+    
+        
+          
+    
+
+        
+        Expand All
+    
+    @@ -59,12 +57,12 @@ footer{
+  
     margin: 0px auto;
     p{
         text-align: center;
@@ -47,8 +66,8 @@ footer{
 }
 
 .title {
-    width:26%;
-    height:298px;
+    width:214px;
+    height:fit-content;
     padding-left: 15px;
     padding-top: 10px;
     background-color:white;
@@ -56,87 +75,152 @@ footer{
     border: 3px solid var(--risoP);
     h4{
         padding:3.3px;
+
+    
+        
+          
+    
+
+        
+        Expand All
+    
+    @@ -75,8 +73,9 @@ footer{
+  
     }
     h3{
-        padding-left:15px;
+        padding-left:14px;
     }
 }
 
 .box {
-    width:84%;
-    height:298px;
+    width:690px;
+    height:auto;
     padding-left: 15px;
     padding-top: 10px;
     background-color:white;
+
+    
+        
+          
+    
+
+        
+        Expand All
+    
+    @@ -85,13 +84,13 @@ footer{
+  
     margin-left: auto;
     margin-right: auto;
     border: 3px solid var(--risoRed);
 }
 .box2 {
-    width:55.9%;
-    height:298px;
+    width:459px;
+    height:fit-content;
     padding-left: 15px;
+    padding-right: 10px;
     padding-top: 10px;
     background-color:white;
     display: inline-block;
     border: 3px solid var(--risoRed);
     .content{
     width:95%;}
-}
 
+    
+        
+          
+    
+
+        
+        Expand All
+    
+    @@ -102,6 +101,9 @@ footer{
+  
+}
 .content{
-    height:70%;
+    height:auto;
     width:96%;
-    overflow:auto;
     padding: 10px;
-    background-color:white; 
+    margin-bottom: 5px;
 }
 
 .poetry{
-    height:70%;
-    width:85%;
-    overflow:auto;
-    padding: 10px;
-    background-color:white 
-}
 
+    
+        
+          
+    
+
+        
+        Expand All
+    
+    @@ -125,18 +127,25 @@ footer{
+  
+    height:auto;
+    width:85%;
+    padding: 10px;
+    overflow-y: hidden;
+    a {
+        color:#765BA7;
+    }
+}
 .container{
     margin-left: auto;
     margin-right: auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: top;
     gap:3.3px;
 }
 
-ul{
-    overflow: auto;
+.box3 {
+    width:150px;
+    height: 100px;
+    overflow:auto;
+    padding: 15px;
+    display: inline-block;
+    border: 2px solid var(--risoPink);
+    text-align: center;
+    a {
+        color:#765BA7;
+    }
 }
 
 
+ul{
+    height:auto;
+
+    
+          
+            
+    
+
+          
+          Expand Down
+    
+    
+  
+}
 h1{
     color:var(--risoPink);
     text-align: center;
 }
-
 h2 {
     color:var(--risoPink);
     padding-left: 15px;
+    a {
+        color:#765BA7;
+    }
 }
-
 h3 {
     color:var(--risoPink);
 }
-
 h4 {
     color:var(--risoPink);  
 }
-
 a {
     color:black;
 }
-
 p {
     color: black;
 }
